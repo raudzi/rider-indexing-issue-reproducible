@@ -6,8 +6,8 @@
     "outDir": "../../out-tsc/app",
     "paths": {
       "@qpx/components": [
-        "/projects/qpx/components/src",
-        "/dist/qpx/components/src"
+        "projects/qpx/components/src",
+        "dist/qpx/components/src"
       ]
     },
   },
