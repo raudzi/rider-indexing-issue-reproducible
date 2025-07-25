@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {BehaviorSubject} from 'rxjs';
 
 @Component({
   selector: 'lib-components',
@@ -12,5 +13,5 @@ import { Component } from '@angular/core';
   styles: ``
 })
 export class ComponentsComponent {
-
+subject = new BehaviorSubject(null)
 }
